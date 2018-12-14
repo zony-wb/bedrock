@@ -17,7 +17,7 @@ Much of the philosophy behind Roots is inspired by the [Bedrock](https://roots.i
 
 ## Requirements
 
-* PHP >= 7.1
+* PHP >= 5.6
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 ## Installation
