@@ -31,7 +31,7 @@
     "roots/soil": "^3.7",
     "ekandreas/bladerunner": "^1.7",
     "symfony/var-dumper": "^4.2",
-    "3uweb/wp_advanced-custom-firlds-pro": "5.7.8.2",
+    "3u-web/wp_advanced-custom-firlds-pro": "5.7.8.2",
     "wpackagist-plugin/safe-redirect-manager": "^1.9",
     "wpackagist-plugin/custom-post-type-permalinks": "^3.2",
     "wpackagist-plugin/intuitive-custom-post-order": "^3.1",
