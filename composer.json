@@ -56,7 +56,9 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
+      "php -r \"copy('.env.example', '.env');\"",
+      "cd web/app/themes",
+      "composer create-project roots/sage ."
     ],
     "test": [
       "phpcs"
