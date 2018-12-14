@@ -11,8 +11,7 @@
   <!-- Ignore WordPress and Composer dependencies -->
   <exclude-pattern>web/wp</exclude-pattern>
   <exclude-pattern>vendor/</exclude-pattern>
-  
-  <exclude name="Generic.WhiteSpace.DisallowSpaceIndent.SpacesUsed" />
+  <exclude-pattern>web/app/plugins</exclude-pattern>
   
   <!-- Show colors in console -->
   <arg value="-colors"/>
