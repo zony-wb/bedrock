@@ -1,6 +1,6 @@
 # [Wordpress FrameWork](https://roots.io/bedrock/)
-[![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/zony-wb/wproot)
-[![Build Status](https://travis-ci.org/zony-wb/wproot.svg?branch=master)](https://travis-ci.org/zony-wb/wproot)
+[![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/3uweb/bedrock)
+[![Build Status](https://travis-ci.org/zony-wb/wproot.svg?branch=master)](https://travis-ci.org/3uweb/bedrock)
 
 Roots is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
