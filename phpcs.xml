@@ -12,8 +12,15 @@
   <exclude-pattern>web/wp</exclude-pattern>
   <exclude-pattern>vendor/</exclude-pattern>
   
-  <exclude name="Generic.WhiteSpace.DisallowTabIndent.TabsUsed"/>
-
+  <arg name="tab-width" value="4"/>
+  <rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
+  <rule ref="Generic.WhiteSpace.ScopeIndent">
+      <properties>
+          <property name="indent" value="4"/>
+          <property name="tabIndent" value="true"/>
+      </properties>
+  </rule>
+  
   <!-- Show colors in console -->
   <arg value="-colors"/>
 
