@@ -4,8 +4,97 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7425a9eb31ceed66ba8683b925086360",
+    "content-hash": "f178325e30d3c103f991fad32d85f01c",
     "packages": [
+        {
+            "name": "3u-web/js_composer",
+            "version": "5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3uweb/js_composer.git",
+                "reference": "d7394458fb6b5f085d73114fd99d45555b8a5e84"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/3uweb/js_composer/zipball/d7394458fb6b5f085d73114fd99d45555b8a5e84",
+                "reference": "d7394458fb6b5f085d73114fd99d45555b8a5e84",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "WPBakeryVisualComposer",
+            "time": "2018-12-14T16:15:11+00:00"
+        },
+        {
+            "name": "3u-web/revslider",
+            "version": "5.4.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3uweb/revslider.git",
+                "reference": "d0fe7d83f0198890eec7ed327011909f57db3984"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/3uweb/revslider/zipball/d0fe7d83f0198890eec7ed327011909f57db3984",
+                "reference": "d0fe7d83f0198890eec7ed327011909f57db3984",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "WPBakeryVisualComposer",
+            "time": "2018-12-14T16:15:17+00:00"
+        },
+        {
+            "name": "3u-web/ultimate_vc_addons",
+            "version": "1.17.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/3uweb/ultimate_vc_addons.git",
+                "reference": "12462bbc08ce11feba0e968737885daac8ebe7e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/3uweb/ultimate_vc_addons/zipball/12462bbc08ce11feba0e968737885daac8ebe7e1",
+                "reference": "12462bbc08ce11feba0e968737885daac8ebe7e1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "wp-coding-standards/wpcs": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "Ultimate_VC_Addons",
+            "time": "2018-12-14T16:35:10+00:00"
+        },
         {
             "name": "3u-web/wp_advanced-custom-firlds-pro",
             "version": "5.7.8.2",
@@ -1811,6 +1900,26 @@
             "homepage": "https://wordpress.org/plugins/custom-post-type-permalinks/"
         },
         {
+            "name": "wpackagist-plugin/custom-post-type-ui",
+            "version": "1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
+                "reference": "tags/1.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.6.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
             "name": "wpackagist-plugin/intuitive-custom-post-order",
             "version": "3.1.1",
             "source": {
@@ -1938,12 +2047,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "9fd088ff8176ceb154c7d3cc0d1241af80e5c93e"
+                "reference": "3557820049b07ea0fd088e4151ec200f474b58de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/9fd088ff8176ceb154c7d3cc0d1241af80e5c93e",
-                "reference": "9fd088ff8176ceb154c7d3cc0d1241af80e5c93e",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3557820049b07ea0fd088e4151ec200f474b58de",
+                "reference": "3557820049b07ea0fd088e4151ec200f474b58de",
                 "shasum": ""
             },
             "conflict": {
@@ -2074,7 +2183,7 @@
                 "symfony/yaml": ">=2,<2.0.22|>=2.1,<2.1.7",
                 "tecnickcom/tcpdf": "<6.2.22",
                 "thelia/backoffice-default-template": ">=2.1,<2.1.2",
-                "thelia/thelia": ">=2.1.0-beta1,<2.1.3|>=2.1,<2.1.2",
+                "thelia/thelia": ">=2.1,<2.1.2|>=2.1.0-beta1,<2.1.3",
                 "theonedemon/phpwhois": "<=4.2.5",
                 "titon/framework": ">=0,<9.9.99",
                 "truckersmp/phpwhois": "<=4.3.1",
@@ -2083,6 +2192,7 @@
                 "typo3/cms-core": ">=8,<8.7.21|>=9,<9.5.2",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.10|>=3.1,<3.1.7|>=3.2,<3.2.7|>=3.3,<3.3.5",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4",
+                "ua-parser/uap-php": "<3.8",
                 "wallabag/tcpdf": "<6.2.22",
                 "willdurand/js-translation-bundle": "<2.1.1",
                 "yiisoft/yii": ">=1.1.14,<1.1.15",
@@ -2131,7 +2241,7 @@
                 }
             ],
             "description": "Prevents installation of composer packages with known security vulnerabilities: no API, simply require it",
-            "time": "2018-12-11T16:56:18+00:00"
+            "time": "2018-12-14T13:12:19+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -2193,7 +2303,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.6"
+        "php": ">=7.1.3"
     },
     "platform-dev": []
 }
