@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff54f51929efc007bf1b4f5ffc236e4e",
+    "content-hash": "8a16003856ed05b586890400576827ac",
     "packages": [
         {
             "name": "3u-web/js_composer",
@@ -1036,7 +1036,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1.3"
+        "php": ">=5.6"
     },
     "platform-dev": []
 }
