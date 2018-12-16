@@ -4,21 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f91363d3594a4a16ec1857b52a208d4",
+    "content-hash": "08103bdd0a1d3bfa12d6a35d977d1f56",
     "packages": [
         {
             "name": "3u-web/js_composer",
-            "version": "5.6",
+            "version": "5.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/3uweb/js_composer.git",
-                "reference": "d7394458fb6b5f085d73114fd99d45555b8a5e84"
+                "reference": "245d379e76ee392e3baecb28c0b0fb9cfbe0a826"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/3uweb/js_composer/zipball/d7394458fb6b5f085d73114fd99d45555b8a5e84",
-                "reference": "d7394458fb6b5f085d73114fd99d45555b8a5e84",
+                "url": "https://api.github.com/repos/3uweb/js_composer/zipball/245d379e76ee392e3baecb28c0b0fb9cfbe0a826",
+                "reference": "245d379e76ee392e3baecb28c0b0fb9cfbe0a826",
                 "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -31,22 +34,25 @@
                     "email": "zhong@3u-web.com"
                 }
             ],
-            "description": "WPBakeryVisualComposer",
-            "time": "2018-12-14T16:15:11+00:00"
+            "description": "WPBakery Page Builder plugin for WordPress – take full control over your site. Build any layout you can imagine with intuitive drag and drop builder – no programming knowledge required.",
+            "time": "2018-12-16T09:06:33+00:00"
         },
         {
             "name": "3u-web/revslider",
-            "version": "5.4.8.1",
+            "version": "5.4.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/3uweb/revslider.git",
-                "reference": "10b6582115f73f956bc893b24b1cef8964241f52"
+                "reference": "d41cb949ca006577970ddc448bb26ff8f3261d52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/3uweb/revslider/zipball/10b6582115f73f956bc893b24b1cef8964241f52",
-                "reference": "10b6582115f73f956bc893b24b1cef8964241f52",
+                "url": "https://api.github.com/repos/3uweb/revslider/zipball/d41cb949ca006577970ddc448bb26ff8f3261d52",
+                "reference": "d41cb949ca006577970ddc448bb26ff8f3261d52",
                 "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -59,8 +65,8 @@
                     "email": "zhong@3u-web.com"
                 }
             ],
-            "description": "WPBakeryVisualComposer",
-            "time": "2018-12-14T17:11:05+00:00"
+            "description": "Slider Revolution is an innovative, responsive WordPress Slider Plugin that displays your content the beautiful way. Whether it's a Slider, Carousel, Hero Image Scene or even a whole Front Page, the visual, drag & drop editor will let you tell your own stories in no time! And it does not even matter if your visitor watches the page on desktop or mobile or any other device!",
+            "time": "2018-12-16T09:44:49+00:00"
         },
         {
             "name": "3u-web/ultimate_vc_addons",
@@ -100,17 +106,20 @@
         },
         {
             "name": "3u-web/wp_advanced-custom-firlds-pro",
-            "version": "5.7.8.2",
+            "version": "5.7.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/3uweb/wp_advanced-custom-fields-pro.git",
-                "reference": "07cf8dd2ae941c43de5b909db57628f99b7e175f"
+                "reference": "5b8474b56f6316dbe2f8a69032b2c6676b5fe206"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/3uweb/wp_advanced-custom-fields-pro/zipball/07cf8dd2ae941c43de5b909db57628f99b7e175f",
-                "reference": "07cf8dd2ae941c43de5b909db57628f99b7e175f",
+                "url": "https://api.github.com/repos/3uweb/wp_advanced-custom-fields-pro/zipball/5b8474b56f6316dbe2f8a69032b2c6676b5fe206",
+                "reference": "5b8474b56f6316dbe2f8a69032b2c6676b5fe206",
                 "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.4"
             },
             "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -123,7 +132,8 @@
                     "email": "zhong@3u-web.com"
                 }
             ],
-            "time": "2018-12-14T07:42:33+00:00"
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "time": "2018-12-16T08:42:53+00:00"
         },
         {
             "name": "composer/installers",
