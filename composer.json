@@ -29,6 +29,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "roots/wp-config": "1.0.0",
     "roots/soil": "^3.7",
+    "inpsyde/wonolog": "^1.0.2",
     "3u-web/js_composer": "^5.6",
     "3u-web/revslider": "^5.4.8",
     "3u-web/ultimate_vc_addons": "^1.17.1",
