@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08103bdd0a1d3bfa12d6a35d977d1f56",
+    "content-hash": "ecbd411f207932316e8312290b22aa46",
     "packages": [
         {
             "name": "3u-web/js_composer",
@@ -899,15 +899,15 @@
         },
         {
             "name": "wpackagist-plugin/tinymce-advanced",
-            "version": "4.8.1",
+            "version": "4.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
-                "reference": "tags/4.8.1"
+                "reference": "tags/4.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1236,6 +1236,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "roots/wordpress": 0,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,
