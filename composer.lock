@@ -1244,5 +1244,5 @@
     "platform": {
         "php": ">=5.6"
     },
-    "platform-dev": [],
+    "platform-dev": []
 }
