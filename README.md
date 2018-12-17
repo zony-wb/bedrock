@@ -24,7 +24,7 @@ Much of the philosophy behind Roots is inspired by the [Bedrock](https://roots.i
 
 1. Create a new project in a new folder for your project:
 
-  `composer create-project zony-wb/roots your-project-folder-name`
+  `composer create-project zony-wb/bedrock your-project-folder-name`
 
 2. Update environment variables in `.env`  file:
   * `DB_NAME` - Database name
