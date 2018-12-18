@@ -12,8 +12,7 @@
     }
   ],
   "config": {
-    "preferred-install": "dist",
-    "secure-http": false
+    "preferred-install": "dist"
   },
   "repositories": [
     {
