@@ -850,11 +850,11 @@
         },
         {
             "name": "zony/js_composer",
-            "version": "5.6.2",
+            "version": "5.6.3",
             "source": {
                 "type": "git",
-                "url": "http://gitlab.3uweb.xyz:22280/zony/js_composer.git",
-                "reference": "4379ca7a0cfb811bf0cc5f6ad62d9f119191f5ff"
+                "url": "https://gitlab.3uweb.xyz/zony/js_composer.git",
+                "reference": "387ce0849737dd09ab43f59ddc55fe73d47ef9f8"
             },
             "require": {
                 "composer/installers": "^1.4"
@@ -870,14 +870,14 @@
                 }
             ],
             "description": "WPBakery Page Builder plugin for WordPress – take full control over your site. Build any layout you can imagine with intuitive drag and drop builder – no programming knowledge required.",
-            "time": "2018-12-17T14:09:17+00:00"
+            "time": "2018-12-18T02:13:34+00:00"
         },
         {
             "name": "zony/revslider",
             "version": "5.4.8.3",
             "source": {
                 "type": "git",
-                "url": "http://gitlab.3uweb.xyz:22280/zony/revslider.git",
+                "url": "https://gitlab.3uweb.xyz/zony/revslider.git",
                 "reference": "c64ee604092a5f2d623e30e77a4c3e7eac9f9331"
             },
             "require": {
@@ -901,7 +901,7 @@
             "version": "1.17.1.5",
             "source": {
                 "type": "git",
-                "url": "http://gitlab.3uweb.xyz:22280/zony/ultimate_vc_addons.git",
+                "url": "https://gitlab.3uweb.xyz/zony/ultimate_vc_addons.git",
                 "reference": "cee017c4896dca476b77838c05443e6a4374d2ae"
             },
             "require": {
@@ -938,7 +938,7 @@
             "version": "5.7.8.6",
             "source": {
                 "type": "git",
-                "url": "http://gitlab.3uweb.xyz:22280/zony/wp_advanced-custom-fields-pro.git",
+                "url": "https://gitlab.3uweb.xyz/zony/wp_advanced-custom-fields-pro.git",
                 "reference": "8f82a693b75ab9588b9ca9d2c8f7935173860b57"
             },
             "require": {
