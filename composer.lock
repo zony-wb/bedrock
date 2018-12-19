@@ -4,8 +4,117 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90e1309e336d64adbddadb06acbd775e",
+    "content-hash": "bd91037680ac5bf22db5bd22f818df0d",
     "packages": [
+        {
+            "name": "3uweb/advanced-custom-firlds-pro",
+            "version": "5.7.8.8",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.3uweb.xyz/3uweb/advanced-custom-fields-pro.git",
+                "reference": "f75b4dcaa0a87e68ad12376c89bd880d22ddb0cc"
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "Customize WordPress with powerful, professional and intuitive fields.",
+            "time": "2018-12-19T15:09:37+00:00"
+        },
+        {
+            "name": "3uweb/js_composer",
+            "version": "5.6.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.3uweb.xyz/3uweb/js_composer.git",
+                "reference": "71caab2b0d79b596c3bef454e34a37e6c8f8a913"
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "WPBakery Page Builder plugin for WordPress – take full control over your site. Build any layout you can imagine with intuitive drag and drop builder – no programming knowledge required.",
+            "time": "2018-12-19T15:01:37+00:00"
+        },
+        {
+            "name": "3uweb/revslider",
+            "version": "5.4.8.4",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.3uweb.xyz/3uweb/revslider.git",
+                "reference": "213a09b7e3c8d7850d8e99b40ce7bddaec59dce2"
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "Slider Revolution is an innovative, responsive WordPress Slider Plugin that displays your content the beautiful way. Whether it's a Slider, Carousel, Hero Image Scene or even a whole Front Page, the visual, drag & drop editor will let you tell your own stories in no time! And it does not even matter if your visitor watches the page on desktop or mobile or any other device!",
+            "time": "2018-12-19T15:02:46+00:00"
+        },
+        {
+            "name": "3uweb/ultimate_vc_addons",
+            "version": "1.17.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.3uweb.xyz/3uweb/ultimate_vc_addons.git",
+                "reference": "8fd263d4c3672ba491ade16dadd5521ad433b5a9"
+            },
+            "require": {
+                "composer/installers": "^1.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "phpcompatibility/phpcompatibility-wp": "*",
+                "wp-coding-standards/wpcs": "dev-master"
+            },
+            "type": "wordpress-plugin",
+            "scripts": {
+                "format": [
+                    "phpcbf --standard=phpcs.xml.dist --report-summary --report-source"
+                ],
+                "lint": [
+                    "phpcs --standard=phpcs.xml.dist --report-summary --report-source"
+                ]
+            },
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "zony",
+                    "email": "zhong@3u-web.com"
+                }
+            ],
+            "description": "Extend WPBakery Page Builder and add more power to it with Ultimate Addon!",
+            "time": "2018-12-19T15:02:27+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.6.0",
@@ -670,15 +779,15 @@
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.1",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.1"
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -847,115 +956,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-optimize/"
-        },
-        {
-            "name": "zony/js_composer",
-            "version": "5.6.3",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.3uweb.xyz/zony/js_composer.git",
-                "reference": "387ce0849737dd09ab43f59ddc55fe73d47ef9f8"
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "zony",
-                    "email": "zhong@3u-web.com"
-                }
-            ],
-            "description": "WPBakery Page Builder plugin for WordPress – take full control over your site. Build any layout you can imagine with intuitive drag and drop builder – no programming knowledge required.",
-            "time": "2018-12-18T02:13:34+00:00"
-        },
-        {
-            "name": "zony/revslider",
-            "version": "5.4.8.3",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.3uweb.xyz/zony/revslider.git",
-                "reference": "c64ee604092a5f2d623e30e77a4c3e7eac9f9331"
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "zony",
-                    "email": "zhong@3u-web.com"
-                }
-            ],
-            "description": "Slider Revolution is an innovative, responsive WordPress Slider Plugin that displays your content the beautiful way. Whether it's a Slider, Carousel, Hero Image Scene or even a whole Front Page, the visual, drag & drop editor will let you tell your own stories in no time! And it does not even matter if your visitor watches the page on desktop or mobile or any other device!",
-            "time": "2018-12-17T14:07:52+00:00"
-        },
-        {
-            "name": "zony/ultimate_vc_addons",
-            "version": "1.17.1.5",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.3uweb.xyz/zony/ultimate_vc_addons.git",
-                "reference": "cee017c4896dca476b77838c05443e6a4374d2ae"
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-                "phpcompatibility/phpcompatibility-wp": "*",
-                "wp-coding-standards/wpcs": "dev-master"
-            },
-            "type": "wordpress-plugin",
-            "scripts": {
-                "format": [
-                    "phpcbf --standard=phpcs.xml.dist --report-summary --report-source"
-                ],
-                "lint": [
-                    "phpcs --standard=phpcs.xml.dist --report-summary --report-source"
-                ]
-            },
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "zony",
-                    "email": "zhong@3u-web.com"
-                }
-            ],
-            "description": "Extend WPBakery Page Builder and add more power to it with Ultimate Addon!",
-            "time": "2018-12-17T14:06:47+00:00"
-        },
-        {
-            "name": "zony/wp_advanced-custom-firlds-pro",
-            "version": "5.7.8.6",
-            "source": {
-                "type": "git",
-                "url": "https://gitlab.3uweb.xyz/zony/wp_advanced-custom-fields-pro.git",
-                "reference": "8f82a693b75ab9588b9ca9d2c8f7935173860b57"
-            },
-            "require": {
-                "composer/installers": "^1.4"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "zony",
-                    "email": "zhong@3u-web.com"
-                }
-            ],
-            "description": "Customize WordPress with powerful, professional and intuitive fields.",
-            "time": "2018-12-17T13:59:53+00:00"
         }
     ],
     "packages-dev": [
