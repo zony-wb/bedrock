@@ -1,3 +1,7 @@
+### 1.11.0: 2018-12-19
+
+* Bump PHP requirement to >= 7.1 ([#405](https://github.com/roots/bedrock/pull/405))
+
 ### 1.10.0: 2018-12-09
 
 * Update to WordPress 5.0, switch from `johnpbloch/wordpress` to `roots/wordpress` package ([#395](https://github.com/roots/bedrock/pull/395))
