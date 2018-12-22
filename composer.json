@@ -18,10 +18,6 @@
     {
       "type": "composer",
       "url": "https://wpackagist.org"
-    },
-    {
-      "type": "composer",
-      "url": "https://packageist.3uweb.xyz/"
     }
   ],
   "require": {
@@ -34,10 +30,6 @@
     "roots/wp-config": "1.0.0",
     "roots/soil": "^3.7",
     "inpsyde/wonolog": "^1.0.2",
-    "3uweb/js_composer": "^5.6",
-    "3uweb/revslider": "^5.4.8",
-    "3uweb/ultimate_vc_addons": "^1.17.1",
-    "3uweb/advanced-custom-firlds-pro": "^5.7.8",
     "wpackagist-plugin/custom-post-type-ui": "^1.6.1",
     "wpackagist-plugin/custom-post-type-permalinks": "^3.2",
     "wpackagist-plugin/safe-redirect-manager": "^1.9",
