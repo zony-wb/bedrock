@@ -35,7 +35,7 @@
     "wpackagist-plugin/safe-redirect-manager": "^1.9.2",
     "wpackagist-plugin/intuitive-custom-post-order": "^3.1.1",
     "wpackagist-plugin/contact-form-7": "^5.1.1",
-    "wpackagist-plugin/tinymce-advanced": "^4.8.2",
+    "wpackagist-plugin/tinymce-advanced": "^5.0.1",
     "wpackagist-plugin/wordfence": "^7.1",
     "wpackagist-plugin/all-in-one-wp-migration": "^6.83",
     "wpackagist-plugin/wp-optimize": "^2.2",
