@@ -2,7 +2,7 @@
 [![Packagist](https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square)](https://packagist.org/packages/zony-wb/bedrock)
 [![Build Status](https://travis-ci.org/zony-wb/bedrock.svg?branch=master)](https://travis-ci.org/zony-wb/bedrock)
 
-Roots is a modern WordPress stack that helps you get started with the best development tools and project structure.
+Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
 Much of the philosophy behind Roots is inspired by the [Bedrock](https://roots.io/bedrock/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
 
